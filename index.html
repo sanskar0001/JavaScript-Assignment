@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="bigcontainer">
+        <div class="container">
+            <div class="smallcontainer">
+                <div>ROCK</div>
+                <div>PAPER</div>
+                <div>SCISSORS</div>
+            </div>
+            <div class="boxContainer">
+                <div class="box1">
+                    <div>COMPUTER</div>
+                    <div>SCORE</div>
+                    <h1 id="computer-score">0</h1>
+                </div>
+                <div class="box2">
+                    <div>YOUR</div>
+                    <div>SCORE</div>
+                    <h1 id="user-score">0</h1>
+                </div>
+            </div>
+
+        </div>
+        <div class="square">
+            <div id="circle1" class="parent1">
+                <div class="image1">
+                    <img src="Ellipse 1.png ">
+                </div>
+
+                <div id="r" class="image2">
+                    <img src="stone.png">
+                </div>
+
+
+
+            </div>
+            <div class="line1">
+
+            </div>
+            <div class="line2">
+
+            </div>
+            <div class="line3">
+
+            </div>
+            <div class="parent2" id=" circle2 ">
+                <div class="image3">
+                    <img src=" Ellipse 2.png ">
+                </div>
+
+                <div id="s" class="image4">
+                    <img src="scissors.png">
+                </div>
+
+            </div>
+
+
+            <div class="center" id="grand">
+                <div class="parent3" id="circle3 ">
+
+                    <div class="image5">
+                        <img src="Ellipse 3.png ">
+                    </div>
+
+                    <div id="p" class="image6">
+                        <img src="paper.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn" onclick="openForm()">RULES</button>
+
+        <div class="rules" id="myForm">
+            <h2 class="head">Game Rules</h2>
+            <div class="mar">
+                <img src="rectangle5.png ">
+                <span>Rock beats scissors, scissors beat paper, and paper beats rock.</span><br><br>
+                <img src="rectangle5.png ">
+                <span>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</span><br><br>
+                <img src="rectangle5.png ">
+                <span>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</span><br><br>
+                <img src="rectangle5.png ">
+                <span>If both players lay down the same hand, each player lays down another hand</span>
+            </div>
+
+        </div>
+
+        <div id="button" onclick="closeForm() ">
+
+            <div class="cross">
+                <img src=" cross.png " alt=" ">
+            </div>
+            <div class="cross1 ">
+                <img src="X.png " alt=" ">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="design">
+        <div class="left">
+            <div class="first0">
+                YOU PICKED
+            </div>
+            <div class="firsta">
+                <img id='e0' src=" Ellipse 2.png " alt=" ">
+            </div>
+            <div class="firstb">
+                <img id="a" src="scissors.png" alt="">
+            </div>
+        </div>
+        <div class="mid">
+            <div id='win' class="mida">
+                YOU WIN
+            </div>
+            <div id="winA" class="midb">
+                AGAINST PC
+            </div>
+            <button id="play" class="midc">
+                PLAY AGAIN
+            </button>
+        </div>
+        <div class="right ">
+            <div class="second0">
+                PC PICKED
+            </div>
+            <div class="seconda">
+                <img src="Ellipse 1.png" alt="">
+            </div>
+            <div class="secondb">
+                <img id='b' src="paper.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <a id='btn1' class="next" href=" hurray.html ">NEXT</a>
+    <script src="script.js "></script>
+
+</body>
+
+</html>

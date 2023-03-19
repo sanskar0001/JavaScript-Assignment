@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #8CC461;
+        }
+        
+        .trophy {
+            position: absolute;
+            left: 43.52%;
+            right: 40.83%;
+            top: 25.61%;
+            bottom: 47.15%;
+        }
+        
+        .stars {
+            position: absolute;
+            width: 504px;
+            height: 297px;
+            left: 500px;
+            top: 86px;
+        }
+        
+        .heading {
+            position: absolute;
+            width: 464px;
+            height: 86px;
+            left: 550px;
+            top: 380px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 91px;
+            line-height: 107px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            color: white;
+        }
+        
+        .won {
+            position: absolute;
+            width: 457px;
+            height: 48px;
+            left: 580px;
+            top: 533px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 41px;
+            line-height: 48px;
+            color: white;
+        }
+        
+        .btn {
+            position: absolute;
+            width: 174px;
+            height: 44px;
+            left: 690px;
+            top: 660px;
+            background: #FFFFFF;
+            border-radius: 9px;
+            border: #FFFFFF;
+            text-decoration: none;
+            color: black;
+            box-sizing: border-box;
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        
+        .rules1 {
+            box-sizing: border-box;
+            position: absolute;
+            width: 119px;
+            height: 40px;
+            left: 1360px;
+            top: 675px;
+            border: 2px solid #FFFFFF;
+            border-radius: 10px;
+            background-color: #8CC461;
+            color: white;
+            cursor: pointer;
+        }
+        
+        #button {
+            display: block;
+            cursor: pointer;
+        }
+        
+        .cross {
+            left: 1217px;
+            top: 300px;
+            width: 50px;
+            height: 50px;
+            float: right;
+            position: absolute;
+            margin-left: 230px;
+            cursor: pointer;
+            /* display: block;
+        cursor: pointer; */
+        }
+        
+        .cross1 {
+            left: 1217px;
+            top: 300px;
+            width: 50px;
+            height: 50px;
+            float: right;
+            position: absolute;
+            margin-left: 249px;
+            margin-top: 12px;
+            cursor: pointer;
+            /* display: block;
+        cursor: pointer; */
+        }
+        
+        .rules {
+            border: 2px solid white;
+            Left: 1200px;
+            Top: 340px;
+            Width: 278px;
+            height: 325px;
+            border-radius: 13px;
+            float: right;
+            margin-bottom: 20px;
+            position: absolute;
+            background-color: #004429;
+            color: white;
+            display: block;
+        }
+        
+        .mar {
+            margin-left: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="smallContainer">
+            <div class="trophy">
+                <img src="Vector.png" alt="">
+            </div>
+            <div class="stars">
+                <img src="Group5.png">
+            </div>
+            <div class="heading">
+                <p>HURRAY!!</p>
+            </div>
+            <div class="won">
+                <p>YOU WON THE GAME</p>
+            </div>
+            <a href="index.html" class="btn">
+                Play Again
+            </a>
+            <button class="rules1" onclick="openrule()">
+                RULES
+            </button>
+        </div>
+    </div>
+    <div id="rules1" onclick="closerule() ">
+
+        <div class="cross">
+            <img src=" cross.png " alt=" ">
+        </div>
+        <div class="cross1 ">
+            <img src="X.png " alt=" ">
+        </div>
+    </div>
+    <div class="rules" id="myForm">
+        <h2 class="head">Game Rules</h2>
+        <div class="mar">
+            <img src="rectangle5.png ">
+            <span>Rock beats scissors, scissors beat paper, and paper beats rock.</span><br><br>
+            <img src="rectangle5.png ">
+            <span>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</span><br><br>
+            <img src="rectangle5.png ">
+            <span>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</span><br><br>
+            <img src="rectangle5.png ">
+            <span>If both players lay down the same hand, each player lays down another hand</span>
+        </div>
+
+    </div>
+    <script src="script1.js"></script>
+</body>
+
+</html>
